@@ -27,6 +27,6 @@ public class MovingAverage
         data[index % expectedSizeOfSlidingWindow] = value;
         ++index;
 
-        return (double)sumValues / currentSizeOfSlidingWindow;
+        return (double) sumValues / currentSizeOfSlidingWindow;
     }
 }
